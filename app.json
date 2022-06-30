@@ -1,0 +1,59 @@
+{
+      "name": "Mentionall bot",
+      "description": "Mentionall tagger",
+      "keywords": [
+         "telegram",
+         "tagger",
+         "group",
+         "memokra",
+         "Memokra"
+      ],   
+   "repository": "https://github.com/Gecekus/ElectroTaggerBot",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": ""
+      },
+      "USERNAME": {
+         "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
+         "value": "WhiteTagerBot"
+      },
+      "sahib": {
+         "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
+         "value": "memokra"
+      },      
+      "support": {
+         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
+         "value": "sohbetikatarsis"
+      },      
+      "group": {
+         "description": "Bura grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
+         "value": "sohbetikatarsis"
+      },
+      "startmesaj": {
+         "description": "Bota start verilince mesajınız",
+         "value": "**Selamm** __Senin için gruptaki üye ve yöneticileri etiketlemek için burdayım .."
+      },
+      "qrupstart": {
+         "description": "Qrup başladıqda mesajınız",
+          "value": " ✅ **etiket işlemine başlıyorum !** 🕊️ **Komutlar için /help**"
+      },
+      "komutlar": {
+         "description":"Komut menüsü",
+          "value": "Selam **WhiteTagerBot** Komut menüsüne hoş geldiniz  🗽\n/tag <Mesajınız> - Üyelere 5 li etiket atar\n/admintag <Sizin Mesaj> - Yalnız adminleri etiketler\n/tektag <Sizin Mesaj> - Tek tek etiketler\n/etag <Sizin mesaj> - üyeleri emojili etiketler\n/stag <Mesajınız> - Üyeleri manalı sözlerle etiketler\n/rtag <Mesajınız> - Üyeleri renklerle etiketler/cancel - Etiket işlemi durduruldu.\n❕ Komutları sadece adminler kullanabilir  . ✨"
+      },
+      "ozel_list": {
+         "description": "sudo kullanıcısı id si",
+         "value": "5306202921"
+      }
+     
+   }
+ }
